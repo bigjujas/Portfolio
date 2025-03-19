@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #4DDC00;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav_a:hover {
+    color: var(--color-primary);
+    transition: all ease 0.3s;
+    transform: translateY(-2px);
+}
