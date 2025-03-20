@@ -1,18 +1,22 @@
 import './App.css'
 import Header from './components/Header'
+import Stacks from './components/Stacks'
+import AboutMe from './components/AboutMe'
 
 function App() {
 
   return (
     <>
     <Header />
-    <section className='h-[60vh] border-b-5 border-primary bg-gradient-to-t from-lime-900 via-neutral-900 to-zinc-900 flex flex-col items-center'>
-      <div className='text-left mt-[20vh] flex flex-col gap-1'>
-      <h2 className='text-white font-normal text-5xl'>Front-end Developer</h2>
-      <h1 className='text-8xl font-[450] bg-gradient-to-r from-lime-500 to-green-500 bg-clip-text text-transparent'>João Pedro Silva</h1>
-      <p className='text-2xl font-light text-white'>&lt;Welcome! /&gt;</p>
+    <section className='spacer layer1 h-[60vh] bg-gradient-to-t from-neutral-800 via-neutral-900 to-zinc-900 flex flex-col items-center'>
+      <div className='home_text text-left m-auto flex flex-col gap-1 saturate-120'>
+      <h2 className='text-white font-medium text-4xl'>João Pedro Silva</h2>
+      <h1 className='text-8xl font-semibold bg-gradient-to-r from-primary to-green-500 bg-clip-text text-transparent'>Front-end Developer</h1>
+      <p className='text-1xl font-normal text-white'>&lt;Welcome!/&gt;</p>
       </div>
     </section>
+    <Stacks />
+    <AboutMe />
     </>
   )
 }

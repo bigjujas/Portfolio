@@ -1,0 +1,36 @@
+.nav_a:hover {
+    color: var(--color-primary);
+    transition: all ease 0.3s;
+    transform: translateY(-2px);
+}
+
+.home_text {
+    padding: 2.5rem;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 71, 0, 0.062);
+    border-radius: 5rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.014);
+}
+
+.spacer {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url(./assets/layer1.svg);
+}
+
+.layer2 {
+    background-image: url(./assets/layer2.svg);
+}
+
+.layer3 {
+    background-image: url(./assets/layer3.svg);
+}
+
+.layer4 {
+    background-image: url(./assets/layer4.svg);
+}
