@@ -24,7 +24,7 @@ const AboutMe = () => {
 
           <img
             className="border-primary border-2 rounded-full h-[200px] sm:h-[300px] w-auto shadow-2xl shadow-black max-w-[80%] sm:max-w-[300px]"
-            src="./src/assets/image1.png"
+            src="/public/image1.png"
             alt="my photo :)"
           />
         </div>
