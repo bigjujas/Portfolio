@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <>
-      <section className="min-h-screen bg-neutral-900 flex flex-col items-center px-6 sm:px-10">
+      <section className="min-h-screen flex flex-col items-center px-6 sm:px-10">
         <hr className="border-[2px] border-primary w-full max-w-[550px] mt-20 mb-10" />
         <h1 className="text-white text-3xl sm:text-5xl mb-10 font-medium">About Me</h1>
 
