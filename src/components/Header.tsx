@@ -31,13 +31,13 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-black sticky top-0 mx-auto w-full flex justify-between items-center p-3 px-6">
+      <header className="bg-black sticky top-0 mx-auto w-full flex justify-between items-center p-3 px-6 border-b-1 border-lightDarkOrange">
         <div className="flex flex-[1] items-center justify-between flex-wrap">
-        <img
-          className="w-12 md:16 rounded-full my-auto"
-          src="/image1.jpg"
-          alt=""
-        />
+          <img
+            className="w-12 md:16 rounded-full my-auto"
+            src="/image1.jpg"
+            alt=""
+          />
           <div className="hidden md:flex">
             <Nav />
           </div>

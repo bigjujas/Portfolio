@@ -3,5 +3,7 @@
 @theme {
     --color-primary: #FF4400;
     --color-darkOrange: #120500;
+    --color-opacitybg: #27272766;
     --color-lightDarkOrange: #262626;
+    --color-lightText: #D8D8D8;
 }
