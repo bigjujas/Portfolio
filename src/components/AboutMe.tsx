@@ -1,12 +1,12 @@
 const AboutMe = () => {
   return (
     <>
-      <section className="flex flex-col items-center py-6 px-1.5">
+      <section id="about" className="flex flex-col items-center py-6 px-1.5">
         <div className="flex flex-col">
           <div className="md:flex md:flex-row-reverse md:gap-4">
             <img
               className="w-30 m-auto border-primary border-2 rounded-full md:w-60"
-              src="/image1.jpg"
+              src="/image2.jpg"
               alt=""
             />
             <div className="md:max-w-175">

@@ -1,21 +1,55 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-scroll";
 
 const Nav = () => {
+  const [activeTab, setActiveTab] = useState("home");
+
+  const changeActiveTab = (tabName: string) => {
+    setActiveTab(tabName);
+  };
+
   return (
     <nav>
       <ul className="text-white text-xl md:text-2xl font-medium flex flex-col gap-1 md:flex-row md:gap-12">
-        <li>
-          <a href="">Home</a>
+        <li className="hoverHeader">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className={`cursor-pointer ${
+              activeTab === "home" ? "text-primary scale-105" : ""
+            } `}
+            onClick={() => changeActiveTab("home")}
+          >
+            Home
+          </Link>
         </li>
-        <li>
-          <a href="">Projects</a>
+        <li className="hoverHeader">
+          <Link
+            to="stacks"
+            smooth={true}
+            duration={500}
+            className={`cursor-pointer ${
+              activeTab === "stacks" ? "text-primary scale-105" : ""
+            } `}
+            onClick={() => changeActiveTab("stacks")}
+          >
+            Stacks
+          </Link>
         </li>
-        <li>
-          <a href="">Stacks</a>
-        </li>
-        <li>
-          <a href="">About Me</a>
+        <li className="hoverHeader">
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className={`cursor-pointer ${
+              activeTab === "about" ? "text-primary scale-105" : ""
+            } `}
+            onClick={() => changeActiveTab("about")}
+          >
+            About Me
+          </Link>
         </li>
       </ul>
     </nav>
@@ -35,7 +69,7 @@ const Header = () => {
         <div className="flex flex-[1] items-center justify-between flex-wrap">
           <img
             className="w-12 md:16 rounded-full my-auto"
-            src="/image1.jpg"
+            src="/image2.jpg"
             alt=""
           />
           <div className="hidden md:flex">
