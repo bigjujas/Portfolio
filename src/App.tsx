@@ -14,7 +14,7 @@ function App() {
       <div className="background">
         <section id="home" className="h-[70vh] flex flex-col gap-10 items-center justify-center px-1.5">
           <div className="text-white font-medium flex flex-col">
-            <p className="text-sm font-light md:text-lg">Welcome to my portfolio :)</p>
+            <p className="text-sm font-light md:text-lg">Hello, I'm</p>
             <h2 className="text-3xl font-medium md:text-4xl">
               João Pedro Silva
             </h2>

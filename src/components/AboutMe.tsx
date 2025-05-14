@@ -48,7 +48,7 @@ const AboutMe = () => {
               <h1 className="text-white text-3xl font-medium text-center m-2">
                 Skills
               </h1>
-              <div className="bg-opacitybg text-sm gap-1 grid grid-cols-2 border-1 items-center border-lightDarkOrange font-medium text-lightText p-4 m-4 md:h-40 md:w-100">
+              <div className="bg-opacitybg text-sm gap-1 grid grid-cols-2 border-1 items-center border-lightDarkOrange font-medium text-lightText p-4 m-4 md:text-base md:h-40 md:w-100">
                 <p>• Visual Design</p>
                 <p>• UI/UX Design</p>
                 <p>• Intermediate English</p>

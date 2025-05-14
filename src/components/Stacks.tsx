@@ -26,30 +26,62 @@ const Stacks = () => {
           </nav>
         </div>
         <div className="grid grid-cols-2 gap-5 m-5 mb-30 text-2xl font-bold text-lightText md:grid-cols-3">
-          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 bg-opacitybg rounded-3xl md:p-5">
+          {activeStacks === "frontend" && (
+            <>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
             <img className="w-15" src="/logo-react.svg" alt="" />
             <p>React</p>
           </div>
-          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 bg-opacitybg rounded-3xl md:p-5">
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
             <img className="w-15" src="/logo-javascript.svg" alt="" />
             <p>JavaScript</p>
           </div>
-          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 bg-opacitybg rounded-3xl md:p-5">
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
             <img className="w-15" src="/logo-typescript.svg" alt="" />
             <p>TypeScript</p>
           </div>
-          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 bg-opacitybg rounded-3xl md:p-5">
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
             <img className="w-15" src="/logo-html.svg" alt="" />
             <p>HTML</p>
           </div>
-          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 bg-opacitybg rounded-3xl md:p-5">
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
             <img className="w-15" src="/logo-css.svg" alt="" />
             <p>CSS</p>
           </div>
-          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 bg-opacitybg rounded-3xl md:p-5">
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
             <img className="w-15" src="/logo-tailwind.svg" alt="" />
             <p>TailwindCSS</p>
           </div>
+          </>
+          )}
+          {activeStacks === "backend" && (
+            <>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
+            <img className="w-15" src="/logo-nodejs.svg" alt="" />
+            <p>Node.js</p>
+          </div>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
+            <img className="w-15" src="/logo-typescript.svg" alt="" />
+            <p>TypeScript</p>
+          </div>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
+            <img className="w-15" src="/logo-python.svg" alt="" />
+            <p>Python</p>
+          </div>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
+            <img className="w-15" src="/logo-javascript.svg" alt="" />
+            <p>JavaScript</p>
+          </div>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
+            <img className="w-15" src="/logo-mysql.svg" alt="" />
+            <p>MySQL</p>
+          </div>
+          <div className="flex flex-col items-center border-2 border-lightDarkOrange p-2 w-40 bg-opacitybg rounded-3xl md:p-5">
+            <img className="w-15" src="/logo-mongodb.svg" alt="" />
+            <p>MongoDB</p>
+          </div>
+          </>
+          )}
         </div>
       </section>
     </>
